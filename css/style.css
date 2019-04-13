@@ -1,0 +1,42 @@
+h2  {
+  text-align: center;
+  font-size: 50px;
+  font-family: Verdana; 
+  color: rgb(245, 191, 12);
+  padding-top: 1em;
+}
+
+h5  {
+font-weight: 300;
+}
+
+.section-heading {
+  text-align: center;
+  color: black;
+  font-size: 30px;
+  font-weight: 700;
+}
+
+.img-fluid  {
+  margin-top: 30px;
+  float: center;
+}
+
+.caption  {
+  font-size: 20px;
+}
+
+hr {
+    display: block;
+    margin-before: 0.5em;
+    margin-after: 0.5em;
+    margin-start: auto;
+    margin-end: auto;
+    overflow: hidden;
+    border-style: inset;
+    border-width: 2px;
+  }
+
+  ol li {
+    font-weight: bold;
+  }
