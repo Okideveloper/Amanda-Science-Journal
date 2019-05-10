@@ -2,19 +2,29 @@ body {
   line-height: 2;
 }
 
+h1  {
+  font: purple;
+}
+
 h2 {
   text-align: center;
   font-size: 50px;
   font-family: Verdana;
   color: rgb(245, 191, 12);
-  padding-top: 1em;
+  padding: 50px;
   padding-bottom: 2em;
 }
 
+.list-group {
+  line-height: 2em;
+  font-size: 22px;
+}
+
 h3 {
-  font-weight: 600;
+  font-family: comic sans ms;
+  font-weight: bold;
   text-align: center;
-  padding-top: 1em;
+  padding-top: 2em;
   padding-bottom: 2em;
 }
 
@@ -28,14 +38,22 @@ h5 {
 }
 
 .heading {
-  margin-top: 100px;
+  margin-top: 100%;
   text-align: center;
-  font-size: 23px;
-  font-family: Cambria;
+  font-size: 25px;
+  font-family: Verdana;
   font-weight: 600;
-}
+  }
+
+  .post-title  {
+    color: black;
+  }
 .tasks  {
   padding-top: 10em;
+}
+.main-title  {
+  padding-top: 100px;
+  color: yellowgreen;
 }
 
 .section-heading {
@@ -53,25 +71,46 @@ h5 {
   font-style: italic;
 }
 
+
+.subheading  {
+  font-weight: 500;
+  color: whitesmoke;
+  font-size: 45px;
+}
+
 .img-fluid {
   margin-top: 30px;
   float: center;
+}
+
+.img-fluids  {
+  float: right;
 }
 
 .caption {
   font-size: 20px;
 }
 
+.list-group  {
+  border-style: solid;
+  margin-top: 200px;
+  padding-left: 60px;
+  padding-right: 60px;
+}
+
 hr {
-  display: block;
   overflow: hidden;
   border-style: inset;
   border-width: 2.5px;
+
 }
 li {
-  padding-top: 10px;
+  font-family: comic sans ms;
+  margin-bottom: 15px;
+  padding-top: 15px;
 }
 
 ol li {
-  font-weight: bold;
+  font-family: comic sans ms;
+  font-weight: 500;
 }
