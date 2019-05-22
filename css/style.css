@@ -31,17 +31,56 @@ h3 {
   padding-bottom: 2em;
 }
 
+h4 {
+  text-align: center;
+  margin-top: 100px;
+}
+
 
 h5 {
   font-weight: 300;
 }
 
+/* Page Header */
+
+.main-title {
+  padding-top: 100px;
+  color: yellowgreen;
+}
+
 .heading {
-  margin-top: 100%;
   text-align: center;
   font-size: 25px;
   font-family: Verdana;
-  font-weight: 600;
+}
+
+.subheading {
+  color: rgb(14, 13, 13);
+  font-size: 10px;
+  font-family: Comic sans ms;
+}
+
+.name {
+  color: pink;
+  font-weight: 400;
+}
+
+/*  Homepage Main Content  */
+
+.list-group {
+  border-style: solid;
+  width: 60%;
+  padding-left: 20px;
+}
+
+.post-title {
+  text-align: right;
+  color: black;
+}
+
+li {
+  font-family: comic sans ms;
+  padding: 10px
 }
 
 #post1-head {
@@ -49,18 +88,11 @@ h5 {
   color: rgba(195, 236, 13, 0.829);
 }
 
-.post-title {
-  color: black;
-}
 
 .tasks {
   padding-top: 10em;
 }
 
-.main-title {
-  padding-top: 100px;
-  color: yellowgreen;
-}
 
 .section-heading {
   margin-top: 100px;
@@ -69,11 +101,13 @@ h5 {
   font-size: 20px;
   font-weight: 700;
 }
-.figure-caption  {
+
+.figure-caption {
   text-align: center;
   font-size: 16px;
   color: black;
 }
+
 .picture-info {
   font-family: Verdana;
   font-size: 20px;
@@ -85,20 +119,15 @@ h5 {
   color: green;
 }
 
-.subheading {
-  font-weight: 600;
-  color: rgb(12, 11, 11);
-  font-size: 40px;
-  font-family: Comic sans ms;
-}
 
 .subheading-one {
   font-size: 30px;
 }
 
 .img-fluid {
-  padding:10px;
+  padding: 10px;
 }
+
 .img-fluids {
   margin: 10px;
 }
@@ -107,24 +136,26 @@ h5 {
   font-size: 20px;
 }
 
-.list-group {
-  border-style: solid;
-  margin-top: 200px;
-  padding-left: 60px;
-  padding-right: 60px;
-}
-
 hr {
   overflow: hidden;
   border-style: inset;
   border-width: 2.5px;
+}
 
+.img-fluid-seven {
+  margin-top: 140px;
+  margin-bottom: 80px;
+  border: solid;
+  margin-right: 90px; 
+}
+
+.questions {
+  font-size: 20px;
 }
 
 li {
   font-family: comic sans ms;
-  margin-bottom: 15px;
-  padding-top: 15px;
+  padding: 10px
 }
 
 ol li {
