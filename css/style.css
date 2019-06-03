@@ -78,9 +78,17 @@ h5 {
   color: black;
 }
 
-li {
+li:hover {
   font-family: comic sans ms;
   padding: 10px
+}
+
+.dropdown-menu a:hover {
+  background-color: rgb(245, 243, 160);
+}
+
+.dropdown:hover .dropdown-menu {
+  display: block;
 }
 
 #post1-head {
