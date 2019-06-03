@@ -78,7 +78,7 @@ h5 {
   color: black;
 }
 
-li:hover {
+/*li:hover {
   font-family: comic sans ms;
   padding: 10px
 }
@@ -90,7 +90,7 @@ li:hover {
 .dropdown:hover .dropdown-menu {
   display: block;
 }
-
+*/
 #post1-head {
   padding-top: 100px;
   color: rgba(195, 236, 13, 0.829);
