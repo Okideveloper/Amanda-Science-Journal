@@ -2,6 +2,10 @@ body {
   line-height: 2em;
   font-size: 17px;
 }
+.img-bg {
+  width: 100%;
+  position: fixed;
+}
 
 h1 {
   margin-top: 100px;
@@ -91,11 +95,6 @@ li:hover {
 .dropdown:hover .dropdown-menu {
   display: block;
 }
-*/
-/*#post1-head {
-  padding-top: 100px;
-  color: rgba(195, 236, 13, 0.829);
-}*/
 
 
 .tasks {
